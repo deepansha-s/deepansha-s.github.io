@@ -31,15 +31,14 @@
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
-            include figure.liquid
+           include figure.liquid
             loading="eager"
             path=entry_path
-            sizes = "200px"
+            sizes="100%"
             class="preview z-depth-1 rounded"
             zoomable=true
-            avoid_scaling=true
             alt=entry.preview
-          %}
+              %}
         {% endif %}
       {% endif %}
     </div>
@@ -184,6 +183,17 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+
+    {% if entry.howpublished %}
+      <div class="periodical howpublished">
+        {{ entry.howpublished | markdownify | strip }}
+      </div>
+    {% endif %}
+
+    {% if entry.keywords %}
+      <div class="keywords"><em>Keywords:</em> {{ entry.keywords }}</div>
+    {% endif %}
+
 
     <!-- Links/Buttons -->
     <div class="links">
