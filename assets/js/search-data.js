@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/industry/";
           },
+        },{id: "nav-teaching-talks-amp-more",
+          title: "teaching, talks &amp; more",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching-talks-more/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -387,16 +394,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-flat-minima-can-fail-to-transfer-to-downstream-tasks-accepted-as-a-poster-at-the-icml-2023-pac-bayes-meets-interactive-learning-workshop",
+          title: 'Flat minima can fail to transfer to downstream tasks accepted as a poster...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-conversense-published-at-chi-2024",
+          title: 'ConverSense published at CHI 2024.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-esoteric-language-models-accepted-at-the-iclr-2026-workshop-on-multimodal-intelligence",
+          title: 'Esoteric Language Models accepted at the ICLR 2026 Workshop on Multimodal Intelligence.',
+          description: "",
+          section: "News",},{id: "news-esoteric-language-models-accepted-to-the-icml-2026-main-track",
+          title: 'Esoteric Language Models accepted to the ICML 2026 main track!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -449,6 +457,27 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%64%65%65%70%61%6E%73%68%61.%73%69%6E%67%68@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/deepansha-s", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/deepansha-singh", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0007-9970-9480", "_blank");
         },
       },{
         id: 'social-scholar',
