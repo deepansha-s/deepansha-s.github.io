@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <em><small>Mathematics-Computer Science @ UCSD | CS @ Cornell | SWE @ Google</small></em>
+subtitle: <em><small>Mathematics-Computer Science @ UCSD | CS @ Cornell | AI @ Google</small></em>
 
 profile:
   align: right
