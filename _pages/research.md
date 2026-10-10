@@ -7,56 +7,40 @@ nav: true
 nav_order: 2
 ---
 
-I started doing CS research in high school after cold-emailing Rutgers faculty, which led to an early graph theory project. Since then, nearly all of my work has focused on machine learning. Along the way I’ve built a strong bias toward open-ended problem solving and grit.  
-**Recognition:** 2023–2024 UC San Diego Physical Sciences Dean’s Undergraduate Award for Excellence (nominated by my thesis advisor).
+**Recognition:** 2023–2024 UC San Diego Physical Sciences Dean's Undergraduate Award for Excellence (nominated by my thesis advisor).
 
 ---
 
-## Esoteric Language Models
+**Esoteric Language Models**  
+_Kuleshov Lab, Cornell University (Cornell Tech)_  
+Diffusion language models: implemented interpolation between autoregressive and diffusion components, attention-mask changes to the denoiser transformer, and conditional MAUVE evaluation; integrated ReMDM samplers into the lab's codebase. [ICML 2026](https://s-sahoo.com/Eso-LMs/)
 
-**Kuleshov Lab, Cornell University (Cornell Tech)** — contributed across several projects:
+---
 
-- Studied diffusion and “next-gen” language models (e.g., MDLM, MuLAN); surveyed samplers and schedules.
-- Implemented interpolation between reconstruction and diffusion components at different timesteps.
-- Modified attention-masking mechanisms for a diffusion-transformer denoiser in a targeted use case.
-- Ran Conditional Mauve evaluations; integrated external samplers (e.g., ReMDM) into our codebase.
-- Engineered clean Torch code, ran experiments across configs, analyzed metrics and samples.
+**Flat Minima Can Fail to Transfer to Downstream Tasks**  
+_Advised by a senior research scientist at DeepMind and Co-Director of the Vector Institute_  
+Showed that flatness is not a reliable indicator of transferability; built noise and spurious-feature experiments with ResNets on MNIST and CIFAR. [ICML 2023 Workshop](https://openreview.net/pdf?id=B9Q2vWshMM)
 
-## Google Computer Science Research Mentorship Program (CSRMP)
+---
 
-**Google (Remote)**
+**ConverSense: Assessing Patient-Provider Interactions with Social Signals**  
+_Weibel Lab, University of California, San Diego_  
+Built an ML pipeline to detect social signals in clinical conversation audio, using diarization, librosa features, and sklearn classifiers with SMOTE. [CHI 2024](https://dl.acm.org/doi/10.1145/3613904.3641998)
 
-- Mentored by a senior scientist (DeepMind) on core ML topics; worked through selected chapters/resources.
-- Broadened perspective on current research directions and solidifed research concepts.
+---
 
-## Flat Minima Can Fail to Transfer to Downstream Tasks
+**Exploring Gradient-Free Optimization Algorithms**  
+_Mathematics Department Honors Thesis, Dr. Yuhua Zhu's Lab_  
+Implemented consensus-based and federated consensus-based optimization algorithms in PyTorch, visualized their convergence, and parallelized heavy computations for the lab repo.
 
-**Voluntarily advised by a DeepMind senior research scientist & Vector Institute co-director**
+---
 
-- Reviewed related work (e.g., Tengyu Ma’s papers) to build foundations.
-- Tested an edge case from prior work; observed generalization/optimization behavior under perturbations.
-- Implemented noise/perturbation pipelines; ran MNIST/CIFAR experiments with ResNets and other models.
+**Mentee, Google Computer Science Research Mentorship Program (CSRMP)**  
+_Google (Remote)_  
+Mentored in machine intelligence by a senior scientist at DeepMind.
 
-## ConverSense: Automated Assessment of Patient–Provider Interactions via Social Signals
+---
 
-**Weibel Lab, UC San Diego**
-
-- Surveyed feature-extraction approaches for social-signal detection; tried NVIDIA diarization pipelines.
-- Used **librosa** to compute audio features; inspected importance patterns (e.g., with seaborn).
-- Trained **scikit-learn** classifiers; addressed imbalance with **SMOTE**.
-- Post-submission, explored language-model techniques for healthcare applications.
-
-## CSNext Program
-
-**University of Washington, Reality Lab (Remote)**
-
-- Deepened understanding of RNNs/LSTMs; worked with ECG data and classical ML classifiers.
-- Presented final results to the group.
-
-## Exploring Gradient-Free Optimization Algorithms
-
-**Dr. Yuhua Zhu Lab (Math Dept Honors Thesis)**
-
-- Studied federated learning and physics-inspired, gradient-free optimization.
-- Implemented the algorithm (from pseudocode) in PyTorch; debugged and ran on several datasets.
-- Built visualizations of consensus trajectories; parallelized heavy computations for the lab repo.
+**CSNext Program**  
+_University of Washington, Reality Lab (Remote)_  
+Classified medical ECG data with RNNs, LSTMs, and sklearn models; presented findings to the group.
